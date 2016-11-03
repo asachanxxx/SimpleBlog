@@ -14,7 +14,7 @@ namespace SimpleBlog
     {
         protected void Application_Start()
         {
-            Response.Write("App Starts");
+           
             AreaRegistration.RegisterAllAreas();
 
             WebApiConfig.Register(GlobalConfiguration.Configuration);
